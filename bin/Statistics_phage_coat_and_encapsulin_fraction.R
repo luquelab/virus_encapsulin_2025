@@ -30,7 +30,10 @@ set.seed(1) # This allows reproducibility of bootstrap and permutation results, 
 # User settings
 # -------------------------
 csv_path <- "Statistics_phage_coat_and_encapsulin_fraction_data.csv"
-
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) >= 1) {
+  csv_path <- args[1]
+}
 # compare only positive values (as requested)
 positive_only <- TRUE
 
