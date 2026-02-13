@@ -1,0 +1,11 @@
+"row","Micro","Mini","Control","Fringe","Refseq","PICIs","ENC_1","ENC_2","ENC_3","ENC_4"
+"Micro",NA,"ns","ns","**","****","ns","****","**",NA,"***"
+"Mini","ns",NA,"ns","*","****","ns","****","**",NA,"**"
+"Control","ns","ns",NA,"**","****","**","****","***",NA,"***"
+"Fringe","**","*","**",NA,"ns","ns","ns","ns",NA,"ns"
+"Refseq","****","****","****","ns",NA,"****","ns","****",NA,"ns"
+"PICIs","ns","ns","**","ns","****",NA,"****","ns",NA,"ns"
+"ENC_1","****","****","****","ns","ns","****",NA,"****",NA,"ns"
+"ENC_2","**","**","***","ns","****","ns","****",NA,NA,"ns"
+"ENC_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ENC_4","***","**","***","ns","ns","ns","ns","ns",NA,NA
